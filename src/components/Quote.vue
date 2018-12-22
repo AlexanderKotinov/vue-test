@@ -1,12 +1,17 @@
 <template>
   <div>
     <p>Quote</p>
+    <p>{{ quote }}</p>
+    <slot></slot>
   </div>
 </template>
 
 <script>
   export default {
-    name: "Quote"
+    name: "Quote",
+    props: [
+      'quote'
+    ]
   }
 </script>
 

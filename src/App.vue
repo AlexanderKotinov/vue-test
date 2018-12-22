@@ -1,8 +1,10 @@
 <template>
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             <div class="col-xs-12">
-               <app-quote></app-quote>
+               <app-quote quote="Some quote props">
+                   <h5>Text in slot</h5>
+               </app-quote>
             </div>
         </div>
     </div>
